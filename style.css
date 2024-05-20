@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #0A97B0;
 }
 
 .navitem {
@@ -19,13 +19,13 @@
 }
 
 .navitem a:hover:not(.active) {
-  background-color: #111;
+  background-color: #4CD3C2;
 }
 
 .active {
-  background-color: #F9629F;
+  background-color: #F54291;
 }
 
 body {
-	background-color: #333;
+	background-color: #fae7f2;
 }
