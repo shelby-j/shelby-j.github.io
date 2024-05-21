@@ -1,5 +1,5 @@
 .navbar {
-  list-style-type: inside;
+  list-style-type: none;
   display: inline-block;
   width:50%;
   position:relative;
