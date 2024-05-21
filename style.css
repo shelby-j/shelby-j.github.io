@@ -48,7 +48,7 @@ hr{
 
 /* Float three columns side by side */
 .column {
-  float: center;
+  float: left;
   width: 33.3%;
   padding: 10px 10px;
 }
