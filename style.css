@@ -39,48 +39,63 @@ hr{
 
 
 
-.cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 37px auto 0;
-  width: calc(280px * 4);
+
+
+
+* {
+  box-sizing: border-box;
 }
 
-.card {
-  box-shadow: 0 3px 10px 0 #aaa;
-  cursor: pointer;
-  height: 280px;
-  position: relative;
-  width: 243px;
+/* Float three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 10px 10px;
 }
 
-.card h2 {
-  font-size: 20px;
-  font-weight: bold;
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.card.visited {
-  box-shadow: 0 3px 10px 2px #444;
-}
-
-@media (max-width: 1100px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
-    width: calc(280px * 2);
-  }
-  .card {
-    margin: 0 auto 2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .cards {
+/* Responsive columns */
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 50%;
     display: block;
-    width: 100vw;
+    margin-bottom: 20px;
   }
-  .card {
-    margin: 0 auto 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  text-align: center;
+  background-color: #f1f1f1;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 30px 0 rgba(0,0,0,0.4);
+}
+
+img {
+  border-radius: 10px 10px 10px 10px;
 }
 
 
