@@ -23,7 +23,7 @@
 
 /*teal*/
 .navitem a:hover:not(.active) {
-  color: #F54291;
+  color: #10c5e5c7;
 }
 
 /*pink*/
@@ -43,9 +43,9 @@ hr{
 .logoimg{
   max-width: 200px;
   max-height: fit-content;
-
   justify-content: center;
 }
+
 
 
 
