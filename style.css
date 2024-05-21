@@ -1,5 +1,6 @@
 .navbar {
   list-style-type: none;
+  display: inline-block;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -8,6 +9,7 @@
 
 .navitem {
   float: center;
+  text-align: center;
 }
 
 .navitem a {
