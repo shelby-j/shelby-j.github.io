@@ -1,12 +1,13 @@
 .navbar {
-  list-style-type: none;
+  list-style-type: inside;
   display: inline-block;
   width:50%;
+  position:relative;
+  left:30%;
   margin: auto;
   padding: 0;
   overflow: hidden;
   background-color: #FDF7FA; /*light baby pink*/
-  list-style:inside;
 }
 
 .navitem {
