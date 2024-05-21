@@ -3,7 +3,6 @@
   display: inline-block;
   width:50%;
   position:relative;
-  left:50%;
   margin: auto;
   padding: 0;
   overflow: hidden;
@@ -44,6 +43,7 @@ hr{
 }
 
 .logoimg{
+  position:relative;
   height: auto;
   width: 15%;
   justify-content: center;
