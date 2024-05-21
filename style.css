@@ -46,7 +46,12 @@ hr{
   position:relative;
   height: auto;
   width: 15%;
+  margin: auto;
   justify-content: center;
+}
+.logodiv{
+  width: 50%;
+  margin: auto;
 }
 
 
