@@ -41,8 +41,8 @@ hr{
 }
 
 .logoimg{
-  max-width: 50px;
-  max-height: fit-content;
+  height: auto;
+  max-height: 50%;
   justify-content: center;
 }
 
