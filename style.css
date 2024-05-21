@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #0A97B0; /*darker teal*/
+  background-color: #FDF7FA; /*darker teal*/
 }
 
 .navitem {
@@ -22,12 +22,12 @@
 
 /*teal*/
 .navitem a:hover:not(.active) {
-  background-color: #0a97b0c7;
+  color: #0a97b0c7;
 }
 
 /*pink*/
 .active {
-  background-color: #F54291;
+  color: #F54291;
 }
 
 /*light light light pink*/
@@ -42,6 +42,7 @@ hr{
 .logoimg{
   max-width: 200px;
   max-height: fit-content;
+
   justify-content: center;
 }
 
