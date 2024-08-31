@@ -55,6 +55,9 @@ hr{
   margin: auto;
   float: left;
 }
+.namediv{
+  justify-content: center;
+}
 
 
 
