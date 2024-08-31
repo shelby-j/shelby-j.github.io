@@ -1,17 +1,19 @@
 .navbar {
   list-style-type: none;
   display: inline-block;
-  width:50%;
-  position:relative;
+  width:100%;
+  position: fixed;
   margin: auto;
   padding: 0;
+  padding-top: 40px;
   overflow: hidden;
-  background-color: #FDF7FA; /*light baby pink*/
+  text-align: center;
 }
 
 .navitem {
-  float: left;
   text-align: center;
+  width: auto;
+  display: inline-block;
 }
 
 .navitem a {
@@ -42,21 +44,12 @@ hr{
 	color: #F54291;
 }
 
-.logoimg{
-  position:relative;
-  height: auto;
-  width: 15%;
-  margin: auto;
-  justify-content: center;
-  object-fit: contain;
-}
-.logodiv{
-  width: 50%;
-  margin: auto;
-  float: left;
-}
+
 .namediv{
-  justify-content: center;
+  position: fixed;
+  left: 50%;
+  padding-top: 100px;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -78,7 +71,15 @@ hr{
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+.row {
+  margin: 0 -5px;
+}
+
+.first{
+  padding-top: 10%;
+  display:block;
+
+}
 
 /* Clear floats after the columns */
 .row:after {
