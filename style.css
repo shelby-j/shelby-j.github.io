@@ -48,6 +48,7 @@ hr{
   width: 15%;
   margin: auto;
   justify-content: center;
+  object-fit: contain;
 }
 .logodiv{
   width: 50%;
