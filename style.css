@@ -53,6 +53,7 @@ hr{
 .logodiv{
   width: 50%;
   margin: auto;
+  float: left;
 }
 
 
